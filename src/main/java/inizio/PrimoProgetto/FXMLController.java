@@ -28,7 +28,7 @@ public class FXMLController {
     void clicked(ActionEvent event) {
     	String nome = txtNome.getText();
     	if (txtNome.getText().length() == 0)
-    		if (txtEta.getText().length() == 0) {
+    		if (txtEta.getText().length() == 0) 
     			txtMessage.setText("Nome ed età non inseriti!");
     			return;
     		}
