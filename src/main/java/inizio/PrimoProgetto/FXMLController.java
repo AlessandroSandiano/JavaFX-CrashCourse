@@ -30,7 +30,6 @@ public class FXMLController {
     	if (txtNome.getText().length() == 0)
     		if (txtEta.getText().length() == 0) {
     			txtMessage.setText("Nome ed età non inseriti!");
-    			return;
     		}
     		else {
     			txtMessage.setText("Nome non inserito!");
